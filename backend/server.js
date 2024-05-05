@@ -1,4 +1,4 @@
-// require('dotenv').config()
+require('dotenv').config()
 
 const express = require('express')
 const mongoose = require('mongoose')
@@ -40,11 +40,11 @@ app.get('/apod', async (req, res) => {
 app.use('/api/user', userRoutes)
 
 // connect to db
-mongoose.connect('mongodb+srv://kavithma:kavithma@cluster0.millc5i.mongodb.net/')
+mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     // listen for requests
-    app.listen(4000, () => {
-      console.log('connected to db & listening on port', 4000)
+    app.listen(process.env.PORT, () => {
+      console.log('connected to db & listening on port', process.env.PORT)
     })
   })
   .catch((error) => {

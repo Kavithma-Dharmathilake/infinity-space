@@ -9,7 +9,7 @@ const app = express();
 
 // Enable CORS and specify allowed origin(s)
 app.use(cors({
-    origin: 'https://infinity-space-nasa.netlify.app/' // Replace with your frontend's URL
+    origin: 'https://infinity-space-1.onrender.com/' // Replace with your frontend's URL
 }));
 
 // middleware

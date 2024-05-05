@@ -1,6 +1,8 @@
 # INFINITY-SPACE
 
-Welcome to Space Explorer! This project leverages NASA's APIs to let users explore data related to space. The application provides information from NASA's Near-Earth Object Web Service (NEOWS), Astronomy Picture of the Day (APOD), Earth Observatory Natural Event Tracker (EONET), and NASA's image library API. It is built with React using Vite for the frontend, and Node.js with Express and MongoDB for the backend. The application also uses Tailwind CSS as its CSS framework and includes login and sign-up functionality.
+Welcome to Space Explorer! This project leverages NASA's APIs to let users explore data related to space. The application provides information from NASA's Near-Earth Object Web Service (NEOWS), Astronomy Picture of the Day (APOD), Earth Observatory Natural Event Tracker (EONET), and NASA's image library API. It is built with React using Vite for the frontend, and Node.js with Express and MongoDB for the backend. The application also uses Tailwind CSS as its CSS framework and includes login and sign-up functionality.'
+
+Hosted in->https://infinity-space-1.onrender.com/
 
 ## Table of Contents
 

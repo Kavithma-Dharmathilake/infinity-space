@@ -12,6 +12,8 @@ import Apod from "./pages/apod.jsx";
 import Neow from "./pages/Neow.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
+import Events from "./pages/Events.jsx";
+import Library from "./pages/Library.jsx";
 
 const App = () => {
 
@@ -28,6 +30,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/apod" element={<Apod />} />
         <Route path="/neow" element={<Neow />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/library" element={<Library />} />
         <Route 
               path="/login" 
               element={!user ? <Login /> : <Navigate to="/" />} 

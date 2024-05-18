@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <HeroCard />
       <Rapidscat />
-      <Satelite />
+  
       {/* <Footer /> */}
       <Footer5 />
     </div>

@@ -40,7 +40,7 @@ const Footer = () => {
                 </h1>
                 <ul className={`flex flex-col gap-3 `}>
                   <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
+                  <li className="cursor-pointer">APOD</li>
                   <li className="cursor-pointer">Services</li>
                   <li className="cursor-pointer">Login</li>
                 </ul>
@@ -82,31 +82,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="hidden sm:block">
-          <div className="flex justify-between items-center text-center py-6 border-t-2 border-gray-300/40">
-            <span className="text-sm text-gray-400">
-              @copyright 2024 Travery || Dilshad
-            </span>
-            <div className="flex items-center justify-center gap-4 mb-4">
-              <a href="#">
-                <FaInstagram className="text-4xl" />
-              </a>
-              <a href="#">
-                <FaFacebook className="text-4xl" />
-              </a>
-              <a href="#">
-                <FaLinkedin className="text-4xl" />
-              </a>
-            </div>
-
-            <span className="text-sm text-gray-400 ">
-              <ul className="flex gap-3">
-                <li className="hover:text-white">Privacy Policy</li>
-                <li className="hover:text-white">Terms & Conditions</li>
-              </ul>
-            </span>
-          </div>
-        </div>
+      
       </section>
     </div>
   );

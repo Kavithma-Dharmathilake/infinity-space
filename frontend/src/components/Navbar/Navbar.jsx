@@ -37,14 +37,18 @@ const Navbar = () => {
                 <Link to="/apod">APOD</Link>
                 </li>
                 <li>
-                  <a href="/neow">NEOs</a>
+                <Link to="/neow">NEOs</Link>
                 </li>
+             
                 <li>
-                  <a href="#">Events</a>
+                <Link to="/library">Library</Link>
                 </li>
+                {user && (
                 <li>
-                  <a href="#">Library</a>
+                <Link to="/events">My Gallery</Link>
                 </li>
+                )}
+
               </ul>
             </div>
             <div>
